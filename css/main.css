@@ -5,4 +5,18 @@ a {
   height: 10px;
   overflow: hidden;
   display: inline-block;
+
+}
+
+.panel {
+  display: none;
+}
+
+.panel:target {
+  display: block;
+}
+
+.circles{
+text-align: center;
+width: 55%;
 }
